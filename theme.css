@@ -1,0 +1,90 @@
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+.clearfix {
+  display: block; }
+
+html[xmlns] .clearfix {
+  display: block; }
+
+* html .clearfix {
+  height: 1%; }
+
+#landing-container {
+  min-height: 100vh; }
+  #landing-container #logo-wrapper {
+    padding-top: 10px;
+    color: white; }
+    #landing-container #logo-wrapper img {
+      height: 120px;
+      display: inline-block; }
+    #landing-container #logo-wrapper .logo-text {
+      display: inline-block;
+      position: relative;
+      bottom: 40px; }
+      #landing-container #logo-wrapper .logo-text h6 {
+        font-family: "Josefin Sans", sans-serif;
+        line-height: 20px;
+        display: inline-block; }
+  #landing-container #audition {
+    font-family: "Oswald", sans-serif;
+    color: #d50000;
+    margin: 50px; }
+    #landing-container #audition h1 {
+      font-size: 6em; }
+    #landing-container #audition h5 {
+      font-family: "Josefin Sans", sans-serif;
+      text-transform: uppercase; }
+  #landing-container #dates-container {
+    max-width: 80%;
+    font-family: "Oswald", sans-serif;
+    color: #ffd600; }
+    #landing-container #dates-container span {
+      text-align: center;
+      display: inline-block; }
+    #landing-container #dates-container h3 {
+      font-size: 3.5em;
+      text-align: center; }
+    #landing-container #dates-container h6 {
+      text-align: left;
+      font-size: 1.2em; }
+    #landing-container #dates-container .align {
+      position: relative;
+      display: block;
+      left: 90px; }
+
+#bio-container {
+  padding-top: 15vh;
+  background-color: #ffd600;
+  width: 100%;
+  height: 150vh; }
+  #bio-container img {
+    height: 70%; }
+  #bio-container .mac-pic {
+    position: relative;
+    display: inline-block;
+    float: left; }
+    #bio-container .mac-pic .about-text {
+      position: absolute;
+      top: 120px;
+      left: 260px;
+      text-align: center; }
+    #bio-container .mac-pic h4 {
+      font-family: "Oswald", sans-serif;
+      color: white;
+      font-size: 3.5em; }
+  #bio-container .group-text {
+    display: inline-block;
+    width: 30%;
+    padding-top: 100px; }
+    #bio-container .group-text p {
+      font-family: "Oswald", sans-serif;
+      color: black;
+      font-size: 1.5em; }
+
+/*# sourceMappingURL=theme.css.map */

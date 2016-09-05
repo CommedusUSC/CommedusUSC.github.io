@@ -1,0 +1,124 @@
+//clearfix
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+//variables
+$font-logo: 'Josefin Sans', sans-serif;
+$font-hd: 'Oswald', sans-serif;
+$red: #d50000;
+$yellow: #ffd600;
+
+
+#landing-container {
+	min-height: 100vh;
+	#logo-wrapper {
+		padding-top: 10px;
+		color: white;
+		img {
+			height: 120px;
+		    display: inline-block;
+		}
+		.logo-text {
+		   display: inline-block;
+		   position: relative;
+		   bottom: 40px;
+	       h6 {
+		    font-family: $font-logo;
+			line-height: 20px;
+			display: inline-block;
+		   }
+        }
+	}
+	#audition {
+		font-family: $font-hd;
+		color: $red;
+		margin: 50px;
+		h1 {
+		   font-size: 6em;
+		}
+		h5 {
+			font-family: $font-logo;
+			text-transform: uppercase;
+		}
+	}
+	#dates-container {
+		max-width: 80%;
+		font-family: $font-hd;
+		color: $yellow;
+		span {
+			text-align: center;
+			display: inline-block;
+		}
+		h3 {
+			font-size: 3.5em;
+			text-align: center;
+		}
+		h6 {
+			text-align: left;
+			font-size: 1.2em;
+		}
+		.align {
+			position: relative;
+			display: block;
+			left: 90px;
+		}
+	}
+}
+
+#bio-container {
+	padding-top: 15vh;
+	background-color: $yellow;
+	width: 100%;
+	height: 150vh;
+	img {
+		height: 70%;
+ 	}
+
+ 	.mac-pic {
+ 		position: relative;
+ 		display: inline-block;
+ 		float: left;
+ 		.about-text {
+ 			position: absolute;
+ 			top: 120px;
+ 			left: 260px;
+ 			text-align: center;
+ 		}
+ 		h4 {
+ 			font-family: $font-hd;
+ 			color: white;
+ 			font-size: 3.5em;
+ 		}
+ 	}
+ 	.group-text {
+ 		display: inline-block;
+ 		width: 30%;
+ 		padding-top: 100px;
+ 		p {
+ 			font-family: $font-hd;
+ 			color: black;
+ 			font-size: 1.5em;
+ 		}
+ 	}
+}
+
+
+

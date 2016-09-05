@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: scribbles;
+	src: url(../fonts/scribbles.ttf);
+	}
+@font-face{
+	font-family: Ritaglio;
+	src: url(../fonts/Ritaglio.ttf);
+}
+@font-face{
+	font-family: Erlan;
+	src: url(../fonts/Erlan.otf);
+}
+*{
+	margin:0;
+	padding:0;
+}
+#wrapper{
+	margin:auto;
+}
+nav {
+	font-size:20px;
+	position:fixed;
+	top:15px;
+	background-color:#0052ff;
+	width: 100%;
+	height:50px;
+	padding: none;
+	margin:none;
+	z-index: 100;
+
+	}
+	
+nav ul {
+	list-style-type: none;
+	float:left;
+	position:relative;
+	
+	
+	
+}
+nav li {
+	font-family:scribbles;
+	display:inline;
+	color:white;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+.computer{
+	top:30px;
+	left:30px;
+	z-index: 90;
+	position: absolute;
+}
+
+.screen{
+	height:150px;
+	width: 150px;
+	top:50px;
+	left:50px;
+	z-index: 91;
+	position: relative;
+
+}

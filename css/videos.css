@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: cocogoose;
+	src: url(fonts/cocogoose.otf);
+	}
+@font-face{
+	font-family: fogtown;
+	src: url(../fonts/fogtown.ttf);
+}
+
+/*Structural-- Body/Nav*/
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-image:url("../images/background.jpg");
+	background-attachment: fixed;
+	margin:auto;
+}
+
+nav {
+	font-family:cocogoose;
+	font-size:20px;
+	position:fixed;
+	top:15px;
+	background-color:#323232;
+	width: 100%;
+	height:50px;
+	padding: none;
+	margin:none;
+	z-index: 100;
+
+	}
+	
+nav ul {
+	list-style-type: none;
+	float:left;
+	position:relative;
+	padding-top:11px;
+	padding-left: 20%;
+	
+}
+nav li {
+	display:inline;
+	padding:4%;
+	color:white;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+
+/*Page Specifics*/
+#wrapper{
+	width:100%;
+	margin: 0px auto;
+}
+
+#groupLogo{
+	width:160px;
+	height:180px;
+	position: absolute;
+	top:80px;
+	left:80px;
+	content: url(../images/logos/commedus.png);
+}
+
+#groupVideos{
+	top:100px;
+	left:338px;
+	width:708px;
+	height:900px;
+	border:1px solid red;
+	background-color:#323232;
+	position: absolute;
+	border-radius: 5px; 
+}
+#groupDescription{
+	width:300px;
+	position: relative;
+	top:270px;	
+	left:10px;
+	background-color: #323232; 
+	padding:5px;  
+	border-radius: 5px;
+	border:1px solid red;
+   
+}
+p{
+	padding:10px;
+	width:290px;
+	font-family: fogtown;
+	color: white;
+}
+
+
+/*videos*/
+#featured{
+	top:2px;
+	left:2px;
+	position: absolute;
+}
+#video2{
+	top:2px;
+	left:402px;
+	position: absolute;
+	
+}
+#video3{
+	top:171px;
+	left:402px;
+	position: absolute;
+}
+
+#video4{
+	top:340px;
+	left:402px;
+	position: absolute;
+}
+#video5{
+	top:226px;
+	left:2px;
+	position: absolute;
+}
+#video6{
+	top:226px;
+	left:202px;
+	position: absolute;
+}
+
+

@@ -87,4 +87,15 @@ html[xmlns] .clearfix {
       color: black;
       font-size: 1.5em; }
 
+footer.page-footer {
+  background-color: black;
+  margin-top: 0;
+  padding-top: 0;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase; }
+  footer.page-footer a, footer.page-footer .footer-link {
+    font-family: "Josefin Sans", sans-serif; }
+    footer.page-footer a:hover, footer.page-footer .footer-link:hover {
+      color: #d50000; }
+
 /*# sourceMappingURL=theme.css.map */

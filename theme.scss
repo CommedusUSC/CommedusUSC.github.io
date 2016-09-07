@@ -120,5 +120,17 @@ $yellow: #ffd600;
  	}
 }
 
-
+footer.page-footer {
+	background-color: black;
+	margin-top: 0;
+	padding-top: 0;
+	font-family: $font-logo;
+	text-transform: uppercase;
+	a, .footer-link {
+		font-family: $font-logo;
+		&:hover {
+			color: $red !important;
+		}
+	}
+}
 
